@@ -1,0 +1,7 @@
+# write the file
+(shiny_new_env)$ pip freeze > requirements.txt
+# show the contents
+(shiny_new_env)$ cat requirements.txt
+
+numpy==1.23.4
+pandas==1.5.0
